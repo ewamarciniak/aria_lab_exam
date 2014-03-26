@@ -19,100 +19,116 @@ $(document).ready(function() {
 
     $("#one").click(function() {
         $("#input_field").val(1);
-        if (total1){
-            total2=1;
+        if (!operator){
+            total2+='1';
+            console.log(operator)
         }else{
-            total1=1;
+            total1+='1';
         }
     });
     $("#two").click(function() {
         $("#input_field").val(2);
-        if (total1){
-            total2=2;
+        if (!operator){
+            total2+='2';
+            console.log(operator)
         }else{
-            total1=2;
+            total1+='2';
         }
     });
     $("#three").click(function() {
         $("#input_field").val(3);
-        if (total1){
-            total2=3;
+        if (!operator){
+            total2+='3';
+            console.log(operator)
         }else{
-            total1=3;
+            total1+='3';
         }
     });
     $("#four").click(function() {
         $("#input_field").val(4);
-        if (total1){
-            total2=4;
+        if (!operator){
+            total2+='4';
         }else{
-            total1=4;
+            total1+='4';
         }
     });
     $("#five").click(function() {
         $("#input_field").val(5);
-        if (total1){
-            total2=5;
+        if (!operator){
+            total2+='5';
         }else{
-            total1=5;
+            total1+='5';
         }
     });
     $("#six").click(function() {
         $("#input_field").val(6);
-        if (total1){
-            total2=6;
+        if (!operator){
+            total2+='6';
         }else{
-            total1=6;
+            total1+='6';
         }
     });
     $("#seven").click(function() {
         $("#input_field").val(7);
-        if (total1){
-            total2=7;
+        if (operator){
+            total2+='7';
         }else{
-            total1=7;
-        }
+            total1+='7';
+        }''
     });
     $("#eight").click(function() {
         $("#input_field").val(8);
-        if (total1){
-            total2=8;
+        if (!operator){
+            total2+='8';
         }else{
-            total1=8;
+            total1+='8';
         }
     });
     $("#nine").click(function() {
         $("#input_field").val(9);
-        if (total1){
-            total2=9;
+        if (!operator){
+            total2+='9';
         }else{
-            total1=9;
+            total1+='9';
         }
     });
     $("#zero").click(function() {
         $("#input_field").val(0);
-        if (total1){
-            total2=0;
+        if (!operator){
+            total2+='0';
+            console.log(operator)
         }else{
-            total1=0;
+            total1+='0';
         }
     });
-    $("#point").click(function() {
-        $("#input_field").val('.');
-    });
-
     $("#divide_by").click(function() {
         operator ='/';
+        if (total1 && total2){
+            total1 = $("#input_field").val('.');
+            total2 = null;
+        }
     });
 
     $("#multiply_by").click(function() {
         operator ='*';
+        if (total1 && total2){
+            total1 = $("#input_field").val('.');
+            total2 = null;
+        }
     });
 
     $("#plus").click(function() {
+        if (total1 && total2){
+            total1 = $("#input_field").val('.');
+            total2 = null;
+        }
         operator ='+';
     });
     $("#minus").click(function() {
+        if (total1 && total2){
+            total1 = $("#input_field").val('.');
+            total2 = null;
+        }
         operator ='-';
     });
 

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="650dbbb1-7515-43ea-8f99-701fbfc48105" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="aria_2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="955" selection-end="955" vertical-scroll-proportion="-12.961538" vertical-offset="156" max-vertical-offset="1802">
+            <state line="7" column="22" selection-start="290" selection-end="290" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
@@ -38,7 +36,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="28" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.8418605" vertical-offset="1780" max-vertical-offset="2601">
+            <state line="23" column="23" selection-start="633" selection-end="633" vertical-scroll-proportion="0.8116279" vertical-offset="42" max-vertical-offset="2873">
               <folding />
             </state>
           </provider>
@@ -507,14 +505,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="955" selection-end="955" vertical-scroll-proportion="-12.961538" vertical-offset="156" max-vertical-offset="1802">
+        <state line="7" column="22" selection-start="290" selection-end="290" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1802">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="28" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.8418605" vertical-offset="1780" max-vertical-offset="2601">
+        <state line="23" column="23" selection-start="633" selection-end="633" vertical-scroll-proportion="0.8116279" vertical-offset="42" max-vertical-offset="2873">
           <folding />
         </state>
       </provider>
