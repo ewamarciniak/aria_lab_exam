@@ -2,9 +2,11 @@
 <html>
 <head>
     <title>Calculator</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro" rel="stylesheet" />
-    <!--[if lte IE 8]><script src="js/vendor/html5shiv.js" type="text/javascript"></script><![endif]-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro"
+          rel="stylesheet"/>
+    <!--[if lte IE 8]>
+    <script src="js/vendor/html5shiv.js" type="text/javascript"></script><![endif]-->
     <script src="js/vendor/jquery-1.10.2.min.js"></script>
     <script src="js/calculator.js"></script>
     <script src="js/main.js"></script>
@@ -23,20 +25,77 @@
         <div class="-2u 4u">
             <input class="" type="number" id="input_field"/>
         </div>
-
-
     </section>
     <!-- Features -->
     <div class="row">
-        <button class="button" id="convertbutton">=</button>
-
+        <div class="-2u 2u">
+            <button class="button" id="seven">7</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="eight">8</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="nine">9</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="divide_by">/</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="-2u 2u">
+            <button class="button" id="four">4</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="five">5</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="six">6</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="multiply_by">*</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="-2u 2u">
+            <button class="button" id="one">1</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="two">2</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="three">3</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="minus">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="-2u 4u">
+            <button class="button 12u" id="zero">0</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="point">.</button>
+        </div>
+        <div class="2u">
+            <button class="button" id="plus">+</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="-2u 4u">
+            <button class="button 12u" id="clear">C</button>
+        </div>
+        <div class="4u">
+            <button class="button 12u" id="equals">=</button>
+        </div>
     </div>
 
+</div>
 
-    <!-- Footer -->
-    <div id="footer">
-        &copy; Example. All rights reserved.
-    </div>
+
+<!-- Footer -->
+<div id="footer">
+    &copy; Example. All rights reserved.
+</div>
 </div>
 </body>
 </html>
